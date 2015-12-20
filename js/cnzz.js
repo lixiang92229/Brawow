@@ -11,4 +11,4 @@ document.write(
 		"%3C/script%3E"
 	)
 );
-//$(#cnzz_stat_icon_1257008449).hide();
+$(#cnzz_stat_icon_1257008449).hide();
