@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+<!-- 指定Struts2配置文件的根元素 -->
+<struts>
+	<package name="default" namespace="/" extends="struts-default">
+<!-- 		<action name="loginAjax" class="loginDemo" method="loginDemo"> -->
+<!-- 			<result name="success">/pages/success.jsp</result> -->
+<!--          	<result name="error">/pages/error.jsp</result> -->
+<!-- 		</action> -->
+		
+		<action name="login" class="loginDemo" method="login">
+			<result name="success">/pages/success.jsp</result>
+         	<result name="error">/pages/error.jsp</result>
+		</action>	
+		<action name="bankend">
+			<result name="success">bankend/page/index.html</result>
+<!--          	<result name="error">/pages/error.jsp</result> -->
+		</action>	
+	</package>
+</struts>
