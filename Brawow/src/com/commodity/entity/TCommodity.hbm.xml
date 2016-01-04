@@ -1,1 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.commodity.entity.TCommodity" table="commodity" catalog="brawow">
+        <id name="id" type="java.lang.Interger">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="titile" type="java.lang.String">
+            <column name="titile" length="32" />
+        </property>
+        <property name="description" type="java.lang.String">
+            <column name="description" length="255" />
+        </property>
+        <property name="price" type="java.lang.Float">
+            <column name="price" />
+        </property>
+        <property name="vip_price" type="java.lang.Float">
+            <column name="vip_price" />
+        </property>
+        <property name="original_price" type="java.lang.Float">
+            <column name="original_price" />
+        </property>
+        <property name="score" type="java.lang.Float">
+            <column name="score" />
+        </property>
+        <property name="cover" type="java.lang.String">
+            <column name="cover" length="255" />
+        </property>
+        <property name="content" type="java.lang.String">
+            <column name="content" length="255" />
+        </property>
+        <property name="collect_count" type="java.lang.Interger">
+            <column name="collect_count" />
+        </property>
+        <property name="comment_count" type="java.lang.Interger">
+            <column name="comment_count" />
+        </property>
+        <property name="sales_count" type="java.lang.Interger">
+            <column name="sales_count" />
+        </property>
+        <property name="like_count" type="java.lang.Interger">
+            <column name="like_count" />
+        </property>
+        <property name="created_time" type="java.util.Date">
+        	<column name="created_time" />
+        </property>
+        <property name="state" type="java.lang.Interger">
+            <column name="state" />
+        </property>
+    </class>
+</hibernate-mapping>
