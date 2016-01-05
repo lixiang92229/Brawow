@@ -3,7 +3,7 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="com.shoppingcart.entity.TShoppingCart" table="shopping_cart" catalog="brawow">
+    <class name="com.collect.entity.TCollect" table="collect" catalog="brawow">
         <id name="id" type="java.lang.Interger">
             <column name="id" />
             <generator class="identity" />
@@ -11,17 +11,14 @@
         <property name="user_id" type="java.lang.Interger">
             <column name="user_id" />
         </property>
-        <property name="commodity_id" type="java.lang.Interger">
-            <column name="commodity_id" />
+        <property name="object_type" type="java.lang.Interger">
+            <column name="object_type" />
         </property>
-        <property name="number" type="java.lang.Interger">
-            <column name="number" />
+        <property name="object_id" type="java.lang.Interger">
+            <column name="object_id" />
         </property>
-        <property name="money" type="java.lang.Float">
-            <column name="money" />
-        </property>
-        <property name="num_money" type="java.lang.Float">
-            <column name="mun_money" />
+        <property name="created_time" type="timestamp">
+            <column name="created_time" />
         </property>
     </class>
 </hibernate-mapping>
