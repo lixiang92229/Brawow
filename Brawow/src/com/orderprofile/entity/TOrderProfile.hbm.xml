@@ -1,1 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.orderprofile.entity.TOrderProfile" table="orderprofile" catalog="brawow">
+        <id name="id" type="java.lang.Interger">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="order_id" type="java.lang.Interger">
+            <column name="order_id" />
+        </property>
+        <property name="commodity_id" type="java.lang.Interger">
+            <column name="commodity_id" />
+        </property>
+        <property name="number" type="java.lang.Interger">
+            <column name="number" />
+        </property>
+        <property name="money" type="java.lang.Float">
+            <column name="money" />
+        </property>
+        <property name="num_money" type="java.lang.Float">
+            <column name="num_money" />
+        </property>
+          <property name="size" type="java.lang.Interger">
+            <column name="size" />
+        </property>
+    </class>
+</hibernate-mapping>
