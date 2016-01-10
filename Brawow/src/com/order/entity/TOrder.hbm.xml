@@ -32,6 +32,9 @@
         <property name="updated_at" type="timestamp">
             <column name="updated_at" />
         </property>
+        <property name="logistics" type="java.lang.String">
+            <column name="text" />
+        </property>
         <property name="text" type="java.lang.String">
             <column name="text" />
         </property>

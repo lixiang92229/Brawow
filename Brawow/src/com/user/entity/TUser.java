@@ -36,7 +36,7 @@ public class TUser {
 	private int status;
 	
 	/*
-	 * 积分
+	 * 余额
 	 */
 	private int integral;
 

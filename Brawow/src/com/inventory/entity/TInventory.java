@@ -18,6 +18,11 @@ public class TInventory {
 	private int size_id;
 	
 	/*
+	 * 颜色外键
+	 */
+	private int color_id;
+	
+	/*
 	 * 数量
 	 */
 	private int number;
@@ -42,6 +47,12 @@ public class TInventory {
 	}
 	public int getNumber() {
 		return number;
+	}
+	public int getColor_id() {
+		return color_id;
+	}
+	public void setColor_id(int color_id) {
+		this.color_id = color_id;
 	}
 	public void setNumber(int number) {
 		this.number = number;

@@ -50,6 +50,11 @@ public class TOrder {
 	private Date updated_at;
 	
 	/*
+	 * 物流编号
+	 */
+	public String logistics;
+
+	/*
 	 * 备注
 	 */
 	private String text;
@@ -124,6 +129,14 @@ public class TOrder {
 
 	public void setUpdated_at(Date updated_at) {
 		this.updated_at = updated_at;
+	}
+	
+	public String getLogistics() {
+		return logistics;
+	}
+
+	public void setLogistics(String logistics) {
+		this.logistics = logistics;
 	}
 
 	public String getText() {
