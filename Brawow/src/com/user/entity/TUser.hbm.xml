@@ -17,6 +17,9 @@
         <property name="access_token" type="java.lang.String">
             <column name="access_token" length="32" />
         </property>
+        <property name="third_party_id" type="java.lang.String">
+            <column name="third_party_id" length="32" />
+        </property>
         <property name="password_hash" type="java.lang.String">
             <column name="password_hash" length="255" />
         </property>
