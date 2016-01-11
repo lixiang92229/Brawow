@@ -17,6 +17,9 @@
         <property name="nickname" type="java.lang.String">
             <column name="nickname" length="255" />
         </property>
+        <property name="address" type="java.lang.String">
+            <column name="address" length="50" />
+        </property>
         <property name="gender" type="java.lang.Interger">
             <column name="gender" />
         </property>

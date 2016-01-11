@@ -42,6 +42,19 @@ public class TUserProfile {
 	 */
 	private Text signature;
 
+	/*
+	 * 用户地址信息
+	 */
+	private String address;
+	
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
 	public int getId() {
 		return id;
 	}
