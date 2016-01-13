@@ -38,7 +38,7 @@
 		<property name="mappingResources">
 			<list>
 <!-- 				<value>com/user/entity/TUser.hbm.xml</value> -->
-				<value>com/accesstoken/entity/TAccessToken.hbm.xml</value>
+<!-- 				<value>com/accesstoken/entity/TAccessToken.hbm.xml</value> -->
 			</list>
 		</property>
 	</bean> 
@@ -61,7 +61,7 @@
 <!-- 			<ref bean="userDao"/> -->
 <!-- 		</property> -->
 <!-- 	</bean> -->
-	<bean id="accesstokenserviceimpl" class="com.accesstoken.service.impl.AccessTokenServiceImpl">
+	<bean id="AccessTokenService" class="com.accesstoken.service.impl.AccessTokenServiceImpl">
 		<property name="AccessTokenDao">
 			<ref bean="AccessTokenDao"/>
 		</property>
@@ -73,7 +73,7 @@
 <!-- 			<ref bean="sessionFactory" /> -->
 <!-- 		</property> -->
 <!-- 	</bean> -->
-	<bean id="accesstokendaoimpl" class="com.accesstoken.dao.impl.AccessTokenDaoImpl">
+	<bean id="AccessTokenDao" class="com.accesstoken.dao.impl.AccessTokenDaoImpl">
 		<property name="sessionFactory">
 			<ref bean="sessionFactory" />
 		</property>
