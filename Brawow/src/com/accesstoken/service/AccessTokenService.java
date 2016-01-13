@@ -1,5 +1,5 @@
 package com.accesstoken.service;
 
-public class AccessTokenService {
-
+public interface AccessTokenService {
+	 String getwxaccesstoken(String token);
 }

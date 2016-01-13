@@ -7,7 +7,7 @@ import com.user.entity.TUser;
 import com.user.service.UserService;
 
 public class UserServiceImpl implements UserService {
-	private UserDao userDao;
+	/*private UserDao userDao;
 	@Override
 	public String findUserByUser(String id,String t_name) {
 		List<TUser> list = userDao.findUserByUser(id,t_name);
@@ -24,6 +24,6 @@ public class UserServiceImpl implements UserService {
 	}
 	public void setUserDao(UserDao userDao) {
 		this.userDao = userDao;
-	}
+	}*/
 	
 }
