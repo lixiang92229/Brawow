@@ -10,13 +10,17 @@
 <!--          	<result name="error">/pages/error.jsp</result> -->
 <!-- 		</action> -->
 		
-		<action name="login" class="loginDemo" method="login">
+<!-- 		<action name="login" class="loginDemo" method="login"> -->
+<!-- 			<result name="success">/pages/success.jsp</result> -->
+<!--          	<result name="error">/pages/error.jsp</result> -->
+<!-- 		</action>	 -->
+		<action name="getaccesstoken" class="access_token" method="getWXUsableAccessToken">
 			<result name="success">/pages/success.jsp</result>
          	<result name="error">/pages/error.jsp</result>
 		</action>	
-		<action name="bankend">
-			<result name="success">bankend/page/index.html</result>
-<!--          	<result name="error">/pages/error.jsp</result> -->
-		</action>	
+<!-- 		<action name="bankend"> -->
+<!-- 			<result name="success">bankend/page/index.html</result> -->
+<!--           	<result name="error">/pages/error.jsp</result> -->
+<!-- 		</action>	 -->
 	</package>
 </struts>

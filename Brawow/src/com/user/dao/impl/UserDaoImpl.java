@@ -17,7 +17,7 @@ import com.user.entity.TUser;
 
 public class UserDaoImpl implements UserDao {
 	
-	private SessionFactory sessionFactory;
+	/*private SessionFactory sessionFactory;
 	
 	@Override
 	public List<TUser> findUserByUser(String id, String t_name) {
@@ -36,6 +36,6 @@ public class UserDaoImpl implements UserDao {
 
 	public void setSessionFactory(SessionFactory sessionFactory) {
 		this.sessionFactory = sessionFactory;
-	}
+	}*/
 
 }

@@ -7,11 +7,11 @@ import org.apache.struts2.ServletActionContext;
 import com.user.service.UserService;
 
 public class UserAction {
-	private UserService userService;
-	private String id;
-	private String t_name;
+	//private UserService userService;
+	//private String id;
+	//private String t_name;
 
-	public String loginDemo() {
+	/*public String loginDemo() {
 		// AjaxReturnValue arv = new AjaxReturnValue();
 		HttpServletResponse response = ServletActionContext.getResponse();
 		// System.out.println("###################");
@@ -24,7 +24,7 @@ public class UserAction {
 		 * try { response.getWriter().write(sJsonStr); } catch (IOException e) {
 		 * e.printStackTrace(); }
 		 */
-		return result;
+	/*	return result;
 	}
 
 	public String login() throws Exception {
@@ -59,5 +59,5 @@ public class UserAction {
 	public void setT_name(String t_name) {
 		this.t_name = t_name;
 	}
-
+*/
 }
