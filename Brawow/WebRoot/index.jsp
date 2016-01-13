@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<title>Index</title>
-		<!--  <meta http-equiv=refresh content="0;url=views/login.jsp">-->
+		<!--  <meta http-equiv=refresh content="0;url=frontend/login.jsp">-->
 	</head>
 	<body>
 		<form action="login" method="post">
