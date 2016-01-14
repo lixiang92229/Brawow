@@ -24,14 +24,10 @@ public class AccessTokenDaoImpl implements AccessTokenDao {
 	}
 
 	@Override
-	public boolean setwxaccesstoken(TAccessToken accesstoken) {
-		int id=-1;
-		 id = (int) sessionFactory.getCurrentSession().save(accesstoken);
-		if (id!=-1) {
-			return true;
-		} else {
-			return false;
-		}
+	public int setwxaccesstoken(TAccessToken accesstoken) {
+
+		int id = (int) sessionFactory.getCurrentSession().save(accesstoken);
+		return id;
 	}
 
 	public SessionFactory getSessionFactory() {

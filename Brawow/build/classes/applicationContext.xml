@@ -22,7 +22,7 @@
 		<property name="driver" value="com.mysql.jdbc.Driver" />
 		<property name="driverUrl" value="jdbc:mysql://localhost:3306/brawow?useUnicode=true&amp;characterEncoding=UTF-8" />
 		<property name="user" value="root" />
-		<property name="password" value="root" />
+		<property name="password" value="1234" />
 	</bean>   
 	
 	<!-- 利用spring的ioc容器创建SessionFactory -->

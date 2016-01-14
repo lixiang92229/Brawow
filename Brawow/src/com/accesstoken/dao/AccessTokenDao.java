@@ -6,5 +6,5 @@ import com.accesstoken.entity.TAccessToken;
 
 public interface AccessTokenDao {
 	public List<TAccessToken>  findwxaccesstoken();
-	public boolean setwxaccesstoken(TAccessToken accesstoken);
+	public int setwxaccesstoken(TAccessToken accesstoken);
 }
