@@ -73,11 +73,11 @@
 <!-- 			<ref bean="sessionFactory" /> -->
 <!-- 		</property> -->
 <!-- 	</bean> -->
-<!-- 	<bean id="AccessTokenDao" class="com.accesstoken.dao.impl.AccessTokenDaoImpl"> -->
-<!-- 		<property name="sessionFactory"> -->
-<!-- 			<ref bean="sessionFactory" /> -->
-<!-- 		</property> -->
-<!-- 	</bean> -->
+	<bean id="AccessTokenDao" class="com.accesstoken.dao.impl.AccessTokenDaoImpl">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
 	
 </beans>
 
