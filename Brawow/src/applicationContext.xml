@@ -37,8 +37,30 @@
 		</property>
 		<property name="mappingResources">
 			<list>
-				<value>com/user/entity/TUser.hbm.xml</value>
 <!-- 				<value>com/accesstoken/entity/TAccessToken.hbm.xml</value> -->
+<!-- 				<value>com/collect/entity/TCollect.hbm.xml</value> -->
+				<value>com/color/entity/TColor.hbm.xml</value>
+				<value>com/comment/entity/TComment.hbm.xml</value>
+				<value>com/commodity/entity/TCommodity.hbm.xml</value>
+<!-- 				<value>com/commoditycategory/entity/TCommoditycategory.hbm.xml</value> -->
+<!-- 				<value>com/commodityreturn/entity/TCommodityreturn.hbm.xml</value> -->
+<!-- 				<value>com/district/entity/TCistrict.hbm.xml</value> -->
+<!-- 				<value>com/feedback/entity/TFeedback.hbm.xml</value> -->
+<!-- 				<value>com/intoinvoice/entity/TIntoinvoice.hbm.xml</value> -->
+<!-- 				<value>com/inventory/entity/TInventory.hbm.xml</value> -->
+<!-- 				<value>com/order/entity/TOrder.hbm.xml</value> -->
+<!-- 				<value>com/orderprofile/entity/TOrderprofile.hbm.xml</value> -->
+<!-- 				<value>com/promo_code/entity/TPromo_code.hbm.xml</value> -->
+<!-- 				<value>com/promocode/entity/TPromocode.hbm.xml</value> -->
+<!-- 				<value>com/shoppingcart/entity/TShoppingcart.hbm.xml</value> -->
+<!-- 				<value>com/shoppingcartcommodity/entity/TShoppingcartcommodity.hbm.xml</value> -->
+<!-- 				<value>com/size/entity/TSize.hbm.xml</value> -->
+				<value>com/user/entity/TUser.hbm.xml</value>
+<!-- 				<value>com/userdistrict/entity/TUserdistrict.hbm.xml</value> -->
+<!-- 				<value>com/userprofile/entity/TUserprofile.hbm.xml</value> -->
+<!-- 				<value>com/verificationcode/entity/TVerificationcode.hbm.xml</value> -->
+<!-- 				<value>com/widgetcarousel/entity/TWidgetcarousel.hbm.xml</value> -->
+<!-- 				<value>com/widgetcarouselitem/entity/TWidgetcarouselitem.hbm.xml</value> -->
 			</list>
 		</property>
 	</bean> 
