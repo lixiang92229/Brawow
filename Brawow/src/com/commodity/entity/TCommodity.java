@@ -62,7 +62,7 @@ public class TCommodity {
 	/*
 	 * 评价数
 	 */
-	private int comment_conut;
+	private int comment_count;
 	
 	/*
 	 * 销量数
@@ -174,12 +174,12 @@ public class TCommodity {
 		this.collect_count = collect_count;
 	}
 
-	public int getComment_conut() {
-		return comment_conut;
+	public int getComment_count() {
+		return comment_count;
 	}
 
-	public void setComment_conut(int comment_conut) {
-		this.comment_conut = comment_conut;
+	public void setComment_count(int comment_count) {
+		this.comment_count = comment_count;
 	}
 
 	public int getSales_count() {
