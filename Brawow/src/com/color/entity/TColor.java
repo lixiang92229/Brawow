@@ -1,16 +1,16 @@
 package com.color.entity;
 
-public class TColorService {
+public class TColor {
 	
 	/*
 	 * 颜色编号
 	 */
-	public int id;
+	private int id;
 	
 	/*
 	 * 颜色中文显示
 	 */
-	public String describe;
+	private String describe;
 
 	public int getId() {
 		return id;
