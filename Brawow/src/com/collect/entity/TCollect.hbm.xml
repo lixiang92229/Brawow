@@ -4,17 +4,17 @@
 
 <hibernate-mapping>
     <class name="com.collect.entity.TCollect" table="collect" catalog="brawow">
-        <id name="id" type="java.lang.Interger">
+        <id name="id" type="java.lang.Integer">
             <column name="id" />
             <generator class="identity" />
         </id>
-        <property name="user_id" type="java.lang.Interger">
+        <property name="user_id" type="java.lang.Integer">
             <column name="user_id" />
         </property>
-        <property name="object_type" type="java.lang.Interger">
+        <property name="object_type" type="java.lang.Integer">
             <column name="object_type" />
         </property>
-        <property name="object_id" type="java.lang.Interger">
+        <property name="object_id" type="java.lang.Integer">
             <column name="object_id" />
         </property>
         <property name="created_time" type="timestamp">

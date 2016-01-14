@@ -4,23 +4,23 @@
 
 <hibernate-mapping>
     <class name="com.order.entity.TOrder" table="order" catalog="brawow">
-        <id name="id" type="java.lang.Interger">
+        <id name="id" type="java.lang.Integer">
             <column name="id" />
             <generator class="identity" />
         </id>
-        <property name="user_id" type="java.lang.Interger">
+        <property name="user_id" type="java.lang.Integer">
             <column name="user_id" />
         </property>
         <property name="money" type="java.lang.Float">
             <column name="money" />
         </property>
-        <property name="user_district" type="java.lang.Interger">
+        <property name="user_district" type="java.lang.Integer">
             <column name="user_district" />
         </property>
-        <property name="number" type="java.lang.Interger">
+        <property name="number" type="java.lang.Integer">
             <column name="number" />
         </property>
-        <property name="state" type="java.lang.Interger">
+        <property name="state" type="java.lang.Integer">
             <column name="state" />
         </property>
         <property name="sn" type="java.lang.String">

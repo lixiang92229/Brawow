@@ -4,7 +4,7 @@
 
 <hibernate-mapping>
     <class name="com.commodity.entity.TCommodity" table="commodity" catalog="brawow">
-        <id name="id" type="java.lang.Interger">
+        <id name="id" type="java.lang.Integer">
             <column name="id" />
             <generator class="identity" />
         </id>
@@ -32,22 +32,22 @@
         <property name="content" type="java.lang.String">
             <column name="content" length="255" />
         </property>
-        <property name="collect_count" type="java.lang.Interger">
+        <property name="collect_count" type="java.lang.Integer">
             <column name="collect_count" />
         </property>
-        <property name="comment_count" type="java.lang.Interger">
+        <property name="comment_count" type="java.lang.Integer">
             <column name="comment_count" />
         </property>
-        <property name="sales_count" type="java.lang.Interger">
+        <property name="sales_count" type="java.lang.Integer">
             <column name="sales_count" />
         </property>
-        <property name="like_count" type="java.lang.Interger">
+        <property name="like_count" type="java.lang.Integer">
             <column name="like_count" />
         </property>
         <property name="created_time" type="java.util.Date">
         	<column name="created_time" />
         </property>
-        <property name="state" type="java.lang.Interger">
+        <property name="state" type="java.lang.Integer">
             <column name="state" />
         </property>
     </class>

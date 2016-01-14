@@ -4,7 +4,7 @@
 
 <hibernate-mapping>
     <class name="com.accesstoken.entity.TAccessToken" table="access_token" catalog="brawow">
-        <id name="id" type="java.lang.Interger">
+        <id name="id" type="java.lang.Integer">
             <column name="id" />
             <generator class="identity" />
         </id>

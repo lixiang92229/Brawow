@@ -11,7 +11,7 @@
         <property name="key" type="java.lang.String">
             <column name="key" length="255" />
         </property>
-        <property name="status" type="java.lang.Interger">
+        <property name="status" type="java.lang.Integer">
             <column name="status" />
         </property>
     </class>
