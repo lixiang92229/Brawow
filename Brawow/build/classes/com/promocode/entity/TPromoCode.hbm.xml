@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.promocode.entity.TPromoCode" table="promocode" catalog="brawow">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="user_id" type="java.lang.Integer">
+            <column name="user_id" />
+        </property>
+        <property name="money" type="java.lang.Float">
+            <column name="money" />
+        </property>
+        <property name="type" type="java.lang.Integer">
+            <column name="type" />
+        </property>
+        <property name="end_time" type="timestamp">
+            <column name="end_time" />
+        </property>
+        <property name="created_time" type="timestamp">
+            <column name="created_time" />
+        </property>
+        <property name="state" type="java.lang.Integer">
+            <column name="state" />
+        </property>
+    </class>
+</hibernate-mapping>
