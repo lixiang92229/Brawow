@@ -27,7 +27,7 @@
             <column name="status" />
         </property>
         <property name="integral" type="java.lang.Integer">
-            <column name="integral" length="11" />
+            <column name="integral" />
         </property>
         
     </class>

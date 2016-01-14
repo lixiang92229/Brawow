@@ -43,7 +43,7 @@ public class TUser {
 	/*
 	 * 余额
 	 */
-//	private int integral;
+	private int integral;
 
 	public int getId() {
 		return id;
@@ -99,6 +99,14 @@ public class TUser {
 
 	public void setStatus(int status) {
 		this.status = status;
+	}
+
+	public int getIntegral() {
+		return integral;
+	}
+
+	public void setIntegral(int integral) {
+		this.integral = integral;
 	}
 
 }
