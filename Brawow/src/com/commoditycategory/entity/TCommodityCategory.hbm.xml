@@ -4,7 +4,7 @@
 
 <hibernate-mapping>
     <class name="com.commoditycategory.entity.TCommodityCategory" table="commodity_category" catalog="brawow">
-        <id name="id" type="java.lang.Interger">
+        <id name="id" type="java.lang.Integer">
             <column name="id" />
             <generator class="identity" />
         </id>
@@ -14,7 +14,7 @@
         <property name="text" type="java.lang.String">
             <column name="text" length="255" />
         </property>
-        <property name="state" type="java.lang.Interger">
+        <property name="state" type="java.lang.Integer">
             <column name="state" />
         </property>
     </class>

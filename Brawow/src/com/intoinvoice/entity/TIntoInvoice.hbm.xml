@@ -4,17 +4,17 @@
 
 <hibernate-mapping>
     <class name="com.intoinvoice.entity.TIntoInvoice" table="intoinvoice" catalog="brawow">
-        <id name="id" type="java.lang.Interger">
+        <id name="id" type="java.lang.Integer">
             <column name="id" />
             <generator class="identity" />
         </id>
-        <property name="user_id" type="java.lang.Interger">
+        <property name="user_id" type="java.lang.Integer">
             <column name="user_id" />
         </property>
-        <property name="commodity_id" type="java.lang.Interger">
+        <property name="commodity_id" type="java.lang.Integer">
             <column name="commodity_id" />
         </property>
-        <property name="size" type="java.lang.Interger">
+        <property name="size" type="java.lang.Integer">
             <column name="size" />
         </property>
         <property name="money" type="java.lang.Float">
@@ -23,7 +23,7 @@
          <property name="price" type="java.lang.Float">
             <column name="price" />
         </property>
-        <property name="number" type="java.lang.Interger">
+        <property name="number" type="java.lang.Integer">
             <column name="number" />
         </property>
         <property name="created_time" type="timestamp">

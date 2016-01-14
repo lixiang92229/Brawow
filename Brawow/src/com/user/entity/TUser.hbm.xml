@@ -23,10 +23,10 @@
         <property name="password_hash" type="java.lang.String">
             <column name="password_hash" length="255" />
         </property>
-        <property name="status" type="java.lang.Interger">
+        <property name="status" type="java.lang.Integer">
             <column name="status" />
         </property>
-        <property name="integral" type="java.lang.Interger">
+        <property name="integral" type="java.lang.Integer">
             <column name="integral" />
         </property>
         

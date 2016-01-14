@@ -8,22 +8,22 @@
             <column name="id" />
             <generator class="identity" />
         </id>
-        <property name="user_id" type="java.lang.Interger">
+        <property name="user_id" type="java.lang.Integer">
             <column name="user_id" />
         </property>
         <property name="name" type="java.lang.String">
             <column name="name" length="255" />
         </property>
-        <property name="city_id" type="java.lang.Interger">
+        <property name="city_id" type="java.lang.Integer">
             <column name="city_id" />
         </property>
-        <property name="county_id" type="java.lang.Interger">
+        <property name="county_id" type="java.lang.Integer">
             <column name="county_id" />
         </property>
-        <property name="mobile_id" type="java.lang.Interger">
+        <property name="mobile_id" type="java.lang.Integer">
             <column name="mobile_id" />
         </property>
-        <property name="postcode_id" type="java.lang.Interger">
+        <property name="postcode_id" type="java.lang.Integer">
             <column name="postcode_id" />
         </property>
         <property name="location" type="java.lang.String">

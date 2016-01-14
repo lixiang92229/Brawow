@@ -31,6 +31,7 @@ public class TUser {
 	 * 第三方登录编号
 	 */
 	private String third_party_id;
+	
 	/*
 	 * 状态
 	 * 1 － 普通用户
@@ -84,6 +85,14 @@ public class TUser {
 		this.password_hash = password_hash;
 	}
 
+	public String getThird_party_id() {
+		return third_party_id;
+	}
+
+	public void setThird_party_id(String third_party_id) {
+		this.third_party_id = third_party_id;
+	}
+
 	public int getStatus() {
 		return status;
 	}
@@ -98,14 +107,6 @@ public class TUser {
 
 	public void setIntegral(int integral) {
 		this.integral = integral;
-	}
-
-	public String getThird_party_id() {
-		return third_party_id;
-	}
-
-	public void setThird_party_id(String third_party_id) {
-		this.third_party_id = third_party_id;
 	}
 
 }

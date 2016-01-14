@@ -22,7 +22,7 @@
 		<property name="driver" value="com.mysql.jdbc.Driver" />
 		<property name="driverUrl" value="jdbc:mysql://localhost:3306/brawow?useUnicode=true&amp;characterEncoding=UTF-8" />
 		<property name="user" value="root" />
-		<property name="password" value="1234" />
+		<property name="password" value="root" />
 	</bean>   
 	
 	<!-- 利用spring的ioc容器创建SessionFactory -->
@@ -32,12 +32,12 @@
 		<property name="hibernateProperties">
 			<props>
 				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
-				
+				<prop key="hibernate.connection.release_mode">after_transaction</prop>	
 			</props>
 		</property>
 		<property name="mappingResources">
 			<list>
-<!-- 				<value>com/user/entity/TUser.hbm.xml</value> -->
+				<value>com/user/entity/TUser.hbm.xml</value>
 <!-- 				<value>com/accesstoken/entity/TAccessToken.hbm.xml</value> -->
 			</list>
 		</property>

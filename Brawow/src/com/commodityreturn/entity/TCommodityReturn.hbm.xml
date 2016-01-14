@@ -4,14 +4,14 @@
 
 <hibernate-mapping>
     <class name="com.commodityreturn.entity.TCommodityReturn" table="commodity_return" catalog="brawow">
-        <id name="id" type="java.lang.Interger">
+        <id name="id" type="java.lang.Integer">
             <column name="id" />
             <generator class="identity" />
         </id>
-        <property name="order_profile_id" type="java.lang.Interger">
+        <property name="order_profile_id" type="java.lang.Integer">
             <column name="order_profile_id" />
         </property>
-        <property name="user_id" type="java.lang.Interger">
+        <property name="user_id" type="java.lang.Integer">
             <column name="user_id" />
         </property>
         <property name="admin_name" type="java.lang.String">
@@ -23,7 +23,7 @@
         <property name="logistics_id_return" type="java.lang.String">
             <column name="logistics_id_return" length="255" />
         </property>
-        <property name="user_district_id" type="java.lang.Interger">
+        <property name="user_district_id" type="java.lang.Integer">
             <column name="user_district_id" />
         </property>
         <property name="description" type="java.lang.String">
@@ -35,7 +35,7 @@
         <property name="updated_at" type="timestamp">
             <column name="updated_at" />
         </property>
-        <property name="state" type="java.lang.Interger">
+        <property name="state" type="java.lang.Integer">
             <column name="state" />
         </property>
     </class>
