@@ -37,7 +37,7 @@
 		</property>
 		<property name="mappingResources">
 			<list>
-<!-- 				<value>com/accesstoken/entity/TAccessToken.hbm.xml</value> -->
+				<value>com/accesstoken/entity/TAccessToken.hbm.xml</value>
 <!-- 				<value>com/collect/entity/TCollect.hbm.xml</value> -->
 				<value>com/color/entity/TColor.hbm.xml</value>
 				<value>com/comment/entity/TComment.hbm.xml</value>
@@ -71,11 +71,11 @@
 <!-- 			<ref bean="userService"/> -->
 <!-- 		</property> -->
 <!-- 	</bean> -->
-<!-- 	<bean id="access_token" class="com.accesstoken.AccessTokenAction"> -->
-<!-- 		<property name="accessTokenService"> -->
-<!-- 			<ref bean="AccessTokenService"/> -->
-<!-- 		</property> -->
-<!-- 	</bean> -->
+	<bean id="access_token" class="com.accesstoken.AccessTokenAction">
+		<property name="accessTokenService">
+			<ref bean="accessTokenService"/>
+		</property>
+	</bean>
 	
 	<!-- 利用spring的ioc容器管理service -->
 <!-- 	<bean id="userService" class="com.user.service.impl.UserServiceImpl"> -->
@@ -83,19 +83,19 @@
 <!-- 			<ref bean="userDao"/> -->
 <!-- 		</property> -->
 <!-- 	</bean> -->
-<!-- 	<bean id="AccessTokenService" class="com.accesstoken.service.impl.AccessTokenServiceImpl"> -->
-<!-- 		<property name="accessTokenDao"> -->
-<!-- 			<ref bean="AccessTokenDao"/> -->
-<!-- 		</property> -->
-<!-- 	</bean> -->
-	
+	<bean id="accessTokenService" class="com.accesstoken.service.impl.AccessTokenServiceImpl">
+		<property name="accessTokenDao">
+			<ref bean="accessTokenDao"/>
+		</property>
+	</bean>
+	 
 	<!-- 利用spring的ioc容器管理dao -->
 <!-- 	<bean id="userDao" class="com.user.dao.impl.UserDaoImpl"> -->
 <!-- 		<property name="sessionFactory"> -->
 <!-- 			<ref bean="sessionFactory" /> -->
 <!-- 		</property> -->
 <!-- 	</bean> -->
-	<bean id="AccessTokenDao" class="com.accesstoken.dao.impl.AccessTokenDaoImpl">
+	<bean id="accessTokenDao" class="com.accesstoken.dao.impl.AccessTokenDaoImpl">
 		<property name="sessionFactory">
 			<ref bean="sessionFactory" />
 		</property>

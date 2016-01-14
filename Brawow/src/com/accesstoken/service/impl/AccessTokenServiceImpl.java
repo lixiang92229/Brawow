@@ -22,7 +22,9 @@ public class AccessTokenServiceImpl implements AccessTokenService {
 		{
 			//没有token,重新获取，存入
 			String string_token=HttpRequestGet.get_request("https://api.weixin.qq.com/cgi-bin/token", "grant_type=client_credential&appid="+"wx04065007e1776bd4"+"&secret="+"86a986f8501306f8e9effa9f8ce62dd3");
+			System.out.println(string_token);
 			return string_token;
+			
 		}
 		else {
 			if((taccesstoken.get(0).end_time).compareTo(nowtime)<0)
@@ -36,4 +38,14 @@ public class AccessTokenServiceImpl implements AccessTokenService {
 					return null;	
 			}
 		}
-}}
+		
+		
+}
+
+	public AccessTokenDao getAccessTokenDao() {
+		return accessTokenDao;
+	}
+
+	public void setAccessTokenDao(AccessTokenDao accessTokenDao) {
+		this.accessTokenDao = accessTokenDao;
+	}}

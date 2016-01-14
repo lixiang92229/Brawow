@@ -11,4 +11,12 @@ public class AccessTokenAction {
 	{
 		return accessTokenService.getwxaccesstoken(token);
 	}
+
+	public AccessTokenService getAccessTokenService() {
+		return accessTokenService;
+	}
+
+	public void setAccessTokenService(AccessTokenService accessTokenService) {
+		this.accessTokenService = accessTokenService;
+	}
 }
