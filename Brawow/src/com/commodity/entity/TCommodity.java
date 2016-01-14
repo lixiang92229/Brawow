@@ -5,27 +5,27 @@ public class TCommodity {
 	/*
 	 * 	商品表
 	 */
-	public int id;
+	private int id;
 	
 	/*
 	 * 	标题
 	 */
-	public String title;
+	private String title;
 	
 	/*
 	 * 	商品类别编号
 	 */
-	public int commodity_category;
+	private int commodity_category;
 	
 	/*
 	 * 	描述
 	 */
-	public String description;
+	private String description;
 	
 	/*
 	 * 	促销价格
 	 */
-	public float price;
+	private float price;
 	
 	/*
 	 * 	会员价格
@@ -35,24 +35,24 @@ public class TCommodity {
 	/*
 	 * 	原始价格
 	 */
-	public float original_price;
+	private float original_price;
 	
 	/*
 	 * 	好评所占百分比例
 	 */
-	public float score;
+	private float score;
 	
 	/*
 	 * 封面图片
 	 * 多张图片以“；”隔开
 	 */
-	public String cover;
+	private String cover;
 	
 	/*
 	 * 商品文字／图片介绍
 	 * 通过富文本编辑器
 	 */
-	public String content;
+	private String content;
 	
 	/*
 	 * 收藏数
@@ -62,29 +62,29 @@ public class TCommodity {
 	/*
 	 * 评价数
 	 */
-	public int comment_conut;
+	private int comment_conut;
 	
 	/*
 	 * 销量数
 	 */
-	public int sales_count;
+	private int sales_count;
 	
 	/*
 	 * 点赞数
 	 */
-	public int like_count;
+	private int like_count;
 	
 	/*
 	 * 创建时间
 	 */
-	public int created_time;
+	private int created_time;
 	
 	/*
 	 * 状态
 	 * 1——上架
 	 * 0——下架
 	 */
-	public int state;
+	private int state;
 
 	public int getId() {
 		return id;
@@ -213,4 +213,5 @@ public class TCommodity {
 	public void setState(int state) {
 		this.state = state;
 	}
+
 }

@@ -8,8 +8,11 @@
             <column name="id" />
             <generator class="identity" />
         </id>
-        <property name="titile" type="java.lang.String">
-            <column name="titile" length="32" />
+        <property name="title" type="java.lang.String">
+            <column name="title" length="32" />
+        </property>
+        <property name="commodity_category" type="java.lang.Integer">
+            <column name="commodity_category" />
         </property>
         <property name="description" type="java.lang.String">
             <column name="description" length="255" />
